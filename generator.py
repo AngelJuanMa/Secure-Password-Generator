@@ -6,8 +6,8 @@ import clipboard
 # initialize a string
 clave = input("Private Key:")
 str = "publicKey" + privateKey
-# Change "publicKey" to a default key, Ejp: old password
-# Insert Private Key, Ejp: You are registering in Facebook the key could be "Facebook"
+# publicKey = Key that will be saved on your computer, you could use an old password, don't forget.
+# privateKey = could be the name of the page you register to, it should be easy to remember.
 
 # encode the string
 encoded_str = str.encode()
@@ -29,6 +29,7 @@ print("\nSHA512 Hash: ", hash_obj_sha512 + "@$")
 clipboard.copy(hash_obj_sha512+ "@$")
 
 # Remove keyword saving, if you seems it unsafe
+# The private key would not be private
 f = open ('clave.txt','a')
 f.write('\n' + clave)
 f.close()
