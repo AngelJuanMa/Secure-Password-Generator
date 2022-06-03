@@ -20,6 +20,10 @@ python3 generator.py
 
 # Config
 
+publicKey = Key that will be saved on your computer, you could use an old password, don't forget.
+
+secretKey = Could be the name of the page you register to, it should be easy to remember.
+
 "@$" = You can change the symbols for more or different, and not only at the end of the password.
 
 sha512(encoded_str) = Hashing algorithms can be changed: https://docs.python.org/3/library/hashlib.html
