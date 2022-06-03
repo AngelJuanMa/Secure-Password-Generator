@@ -4,7 +4,7 @@ Easy way to generate different passwords.
 
 ## Download
 
-```http
+```bash
 git clone https://github.com/AngelJuanMa/Secure-Password-Generator.git
 pip install clipboard
 python3 generator.py
