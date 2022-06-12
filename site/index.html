@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Home</title>
+  <meta charset="utf-8">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+  <meta name="description" content="Your description">
+  <meta name="keywords" content="Your keywords">
+  <meta name="author" content="Your name">
+  <meta name="format-detection" content="telephone=no" />
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="css/responsive.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/superfish.js"></script>
+  <script type="text/javascript" src="js/jquery.mobilemenu.js"></script>
+  <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+  <script src="../sha256.js"></script>
+  <script src="../index.js"></script>
+</head>
+
+<body id="splash">
+  <!--==============================header=================================-->
+  <header>
+    <div class="container">
+      <div class="navbar navbar_ clearfix">
+        <div class="navbar-inner">
+          <div class="clearfix">
+            <h1 class="brand"><a href="index.html"><img src="img/logo.png" alt=""></a></h1>
+          </div>
+          <div>
+            <p>Public</p>
+            <input type="text" id="public">
+            <p>Password</p>
+            <input type="password" id="pass">
+            <p>Date</p>
+            <input type="date" id="date">
+            <br>
+              <button onMouseOut="outFunc()" onClick="toHash(this.form)">
+              Crear
+              </button>
+          </div>
+          <div id="social">
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
+
+</html>
